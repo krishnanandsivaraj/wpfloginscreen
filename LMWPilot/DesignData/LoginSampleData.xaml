@@ -1,0 +1,10 @@
+﻿<ViewModels:LoginViewModel xmlns:ViewModels="clr-namespace:SmartLoginOverlayDemo.ViewModels"
+									xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+									xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+									UserName="dotnetmastermind" EMailAddress="dotnetmastermind@email.de">
+
+	<!-- UserImageSource="http://dotnetmastermind.de/Images/DemoUser2.png" -->
+	<!-- UserImageSource="\Images\DemoUser2.png" -->
+
+</ViewModels:LoginViewModel>
+
