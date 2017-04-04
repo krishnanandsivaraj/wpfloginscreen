@@ -11,7 +11,7 @@
             <ImageBrush/>
         </Grid.Background>
         <Label x:Name="labelAppEngineering" Content="Application Engineering Division" HorizontalAlignment="Left" Margin="76,13,0,0" VerticalAlignment="Top" Cursor="AppStarting" Background="{x:Null}" FontSize="44" Width="640" Foreground="White"/>
-        <Image x:Name="image" Source="E:\lmw\lmw.png" HorizontalAlignment="Left" Height="160" Margin="337,82,0,0" VerticalAlignment="Top" Width="130"/>
+        <Image x:Name="image" Source="lmw.png" HorizontalAlignment="Left" Height="160" Margin="337,82,0,0" VerticalAlignment="Top" Width="130"/>
         <Label x:Name="labelLoading" Content="Loading....Please Wait...." HorizontalAlignment="Center" Margin="245,287,33,32" VerticalAlignment="Stretch" Cursor="AppStarting" Background="{x:Null}" FontSize="34" Width="522" Foreground="White" Height="81"/>
         <Label Grid.RowSpan="3" Grid.ColumnSpan="3" FontSize="9"
 				 HorizontalAlignment="Left" VerticalAlignment="Bottom" Foreground="LightSkyBlue"

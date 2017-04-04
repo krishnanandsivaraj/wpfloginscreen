@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="LMWPilot.Common.GeneralContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <Grid Background="Transparent">
+
+        <Grid ShowGridLines="False">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Initial Instructions" Foreground="Blue" FontFamily="Segoe UI" Grid.Row="0" Grid.Column="0" FontSize="26" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock Text="Customer Name" FontFamily="Segoe UI" Grid.Row="1" Grid.Column="0" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBox Name="customerNameTBox" FontFamily="Segoe UI"  Width="350" Grid.Row="1" Grid.Column="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <TextBlock FontFamily="Segoe UI" Text="Insert Image" Grid.Row="2" Grid.Column="0" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBox Name="UploadTBox" FontFamily="Segoe UI"  Width="350" Grid.Row="2" Grid.Column="2" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <TextBlock FontFamily="Segoe UI" Text="Machine Name" Grid.Row="3" Grid.Column="0" FontSize="16" VerticalAlignment="Center"  HorizontalAlignment="Right"></TextBlock>
+            <TextBox Name="machineNameTBox" FontFamily="Segoe UI"  Width="350" Grid.Row="3" Grid.Column="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <TextBlock FontFamily="Segoe UI" Text="Component" Grid.Row="4" Grid.Column="0" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBox Name="componentTBox"  Width="350" FontFamily="Segoe UI" Grid.Row="4" Grid.Column="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <TextBlock FontFamily="Segoe UI" Text="Drawing Number" Grid.Row="5" Grid.Column="0" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBox Name="drawingNumberTBox" FontFamily="Segoe UI"  Width="350" Grid.Row="5" Grid.Column="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <TextBlock FontFamily="Segoe UI" Text="Insert Image" Grid.Row="6" Grid.Column="0" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBox Name="insertImageTBox" FontFamily="Segoe UI"  Width="350" Grid.Row="6" Grid.Column="2" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <TextBlock Text="Cycle Time" FontFamily="Segoe UI" Grid.Row="7" Grid.Column="0" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBox Name="cycleTimeTBox"  Width="350" FontFamily="Segoe UI" Grid.Row="7" Grid.Column="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <TextBlock Text="Prepared By" FontFamily="Segoe UI" Grid.Row="8" Grid.Column="0" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBox Name="preparedbyTBox"  Width="350" Grid.Row="8" FontFamily="Segoe UI" Grid.Column="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <TextBlock Text="Date" Grid.Row="9" FontFamily="Segoe UI" Grid.Column="0" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBox Name="dateTBox"  Width="350" Grid.Row="9" FontFamily="Segoe UI" Grid.Column="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBox>
+            <Button Content="Reset" HorizontalAlignment="Center" Grid.Row="10" Grid.Column="0" VerticalAlignment="Bottom" Width="105" Margin="38,0" Click="Button_Click_1"/>
+            <Button Content="Submit" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="10" VerticalAlignment="Top" Width="105" Click="Button_Click"/>
+        </Grid>
+
+    </Grid>
+</UserControl>

@@ -13,7 +13,7 @@ namespace SmartLoginOverlayDemo.ViewModels
 	{
 		#region Fields
 
-		private readonly string userImagesPath = @"\Images";
+		private readonly string userImagesPath = @"\images";
 
 		#endregion // Fields
 
@@ -114,9 +114,9 @@ namespace SmartLoginOverlayDemo.ViewModels
 			return new User()
 						 {
 							 UserName = Environment.UserName,
-							 Password = "gingy1",
-							 EMailAddress = @"gingy@farfaraway.com",
-							 ImageSourcePath = Path.Combine( userImagesPath, "DemoUser2.png" )
+							 Password = "lmw",
+							 EMailAddress = @""+Environment.UserDomainName+"@lmw.com",
+							 ImageSourcePath = Path.Combine( userImagesPath, "logo.png" )
 						 };
 		}
 

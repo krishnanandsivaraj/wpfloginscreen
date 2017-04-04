@@ -4,8 +4,9 @@
 		  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 		  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 		  xmlns:wpfsl="http://schemas.softarcs.com/wpfsmartlibrary"
+          xmlns:local="clr-namespace:LMWPilot.Common"
 		  mc:Ignorable="d"
-		  d:DataContext="{d:DesignData Source='../DesignData/LoginSampleData.xaml'}"
+		  d:DataContext="{d:DesignData Source='/DesignData/LoginSampleData.xaml'}"
 		  WindowStartupLocation="CenterScreen"  Background="#FF16499A"
 		  Title="TimeSheet Automation (by Lakshmi Machine Works, Arasur, Coimbatore)" WindowState="Maximized">
 
@@ -13,7 +14,7 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/WPFSmartLibraryLight35;component/ResourceDictionaries/CommonRD.xaml" />
-                <ResourceDictionary Source="../ResourceDictionaries/LoginDialogRD.xaml" />
+                <ResourceDictionary Source="/ResourceDictionaries/LoginDialogRD.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -46,14 +47,14 @@
                 </Style>
             </TabControl.Resources>
             <TabItem Header="General" Foreground="AliceBlue"  Background="#FF16499A">
-                <Label Content="Content goes here..." HorizontalAlignment="Center" />
+                            <local:GeneralContent/>
             </TabItem>
             <TabItem Header="Security" Foreground="AliceBlue" Background="#FF16499A" />
             <TabItem Header="Details" Foreground="AliceBlue" Background="#FF16499A" />
             <TabItem>
                 <TabItem.Header>
                     <StackPanel Orientation="Vertical">
-                        <Image Source="E:\lmw\lmw.png"/>
+                        
                     </StackPanel></TabItem.Header></TabItem>
         </TabControl>
 
